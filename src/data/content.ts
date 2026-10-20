@@ -1,7 +1,7 @@
 // 모든 문구는 노션 원문 그대로. `**굵게**` 표기는 <Rich />에서 <strong>으로 렌더링한다.
 
 export const FORM_URL =
-  "https://boottent.com/form/20251017170012ULUfi?v=20251103";
+  "https://boottent.com/form/20261020174259GdRYf";
 export const FORM_LABEL =
   "[부트텐트 신청폼] 부트텐트 메이커즈: 가치를 만드는 실전 프로젝트 2기";
 
