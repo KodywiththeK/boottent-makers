@@ -5,7 +5,7 @@ export const FORM_URL =
 export const FORM_LABEL =
   "[부트텐트 신청폼] 부트텐트 메이커즈: 가치를 만드는 실전 프로젝트 2기";
 
-export const TITLE = "부트텐트 메이커즈: 내 아이디어로 찐유저 만들어보기";
+export const TITLE = "부트텐트 메이커즈: 나만의 아이디어로 시작하는 실전 프로젝트";
 
 export const greeting = {
   heading: "🙌 안녕하세요!",
