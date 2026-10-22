@@ -56,7 +56,7 @@ export function Section({
         ? "bg-sand"
         : "bg-paper";
   return (
-    <section id={id} className={`${bg} px-5 py-14 text-center sm:px-8 sm:py-20 lg:py-24`}>
+    <section id={id} className={`${bg} scroll-mt-14 px-5 py-14 text-center sm:px-8 sm:py-20 lg:py-24`}>
       <div className="mx-auto w-full max-w-5xl">{children}</div>
     </section>
   );

@@ -3,7 +3,7 @@ import { Bullets, Callout, H2, P, Prose, Rich, Section } from "./ui";
 
 export function About() {
   return (
-    <Section tone="pine">
+    <Section id="about" tone="pine">
       <H2>{a.heading}</H2>
       <p className="mx-auto max-w-2xl text-lg leading-relaxed sm:text-xl lg:text-2xl">
         <Rich text={a.lead} />

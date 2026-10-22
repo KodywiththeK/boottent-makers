@@ -3,7 +3,7 @@ import { Callout, Chevron, H2, Rich, Section } from "./ui";
 
 export function Faq() {
   return (
-    <Section>
+    <Section id="faq">
       <H2>{f.heading}</H2>
       <div className="mx-auto max-w-3xl space-y-3">
         {f.items.map((it) => (

@@ -3,7 +3,7 @@ import { Bullets, H2, P, Rich, Section } from "./ui";
 
 export function Values() {
   return (
-    <Section>
+    <Section id="values">
       <H2>{v.heading}</H2>
       <p className="-mt-4 mb-9 text-[0.95rem] text-muted sm:-mt-6 sm:mb-12 sm:text-base">{v.intro}</p>
       <div className="grid gap-4 sm:gap-5 lg:grid-cols-3">

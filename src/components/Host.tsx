@@ -4,7 +4,7 @@ import { H2, Rich, Section } from "./ui";
 
 export function Host() {
   return (
-    <Section>
+    <Section id="host">
       <H2>{h.heading}</H2>
       <div className="mx-auto max-w-2xl rounded-3xl border border-line bg-white p-6 shadow-lg sm:rounded-[2rem] sm:p-10">
         <Image

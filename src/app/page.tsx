@@ -3,6 +3,7 @@ import { Curriculum } from "@/components/Curriculum";
 import { Faq } from "@/components/Faq";
 import { Footer } from "@/components/Footer";
 import { Greeting } from "@/components/Greeting";
+import { SectionNav } from "@/components/SectionNav";
 import { Hero } from "@/components/Hero";
 import { Host } from "@/components/Host";
 import { Makers } from "@/components/Makers";
@@ -15,6 +16,7 @@ export default function Page() {
   return (
     <main>
       <Hero />
+      <SectionNav />
       <Greeting />
       <Makers />
       <About />

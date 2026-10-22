@@ -4,7 +4,7 @@ import { ApplyButton, Section } from "./ui";
 export function Footer() {
   return (
     <>
-      <Section tone="pine">
+      <Section id="apply" tone="pine">
         <h2 className="text-2xl font-extrabold leading-snug sm:text-3xl lg:text-4xl">
           {apply.heading}
         </h2>

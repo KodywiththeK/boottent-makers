@@ -5,7 +5,7 @@ import { H2, Rich, Section } from "./ui";
 export function Process() {
   const s = greeting.starters;
   return (
-    <Section tone="sand">
+    <Section id="process" tone="sand">
       <H2>{p.heading}</H2>
       <Image
         src={s.src}

@@ -1,4 +1,4 @@
-import { FORM_LABEL, FORM_URL, overview as o } from "@/data/content";
+import { FORM_LABEL, FORM_URL, STARTERS_URL, overview as o } from "@/data/content";
 import { ApplyButton, H2, Rich, Section } from "./ui";
 
 export function Overview() {
@@ -25,7 +25,16 @@ export function Overview() {
 
         <details className="mx-auto mt-5 max-w-xl rounded-xl border border-line px-4 py-3 text-[0.95rem] sm:mt-6 sm:rounded-2xl sm:px-5 sm:py-3.5 sm:text-base">
           <summary className="font-semibold">{o.starters}</summary>
-          <p className="mt-2 text-muted">👉 {o.startersLink}</p>
+          <p className="mt-2">
+            <a
+              href={STARTERS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pine underline underline-offset-4"
+            >
+              👉 {o.startersLink}
+            </a>
+          </p>
         </details>
 
         <div className="mt-8 border-t border-line pt-7 sm:mt-10 sm:pt-9">

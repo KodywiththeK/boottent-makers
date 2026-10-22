@@ -3,7 +3,7 @@ import { H2, Section } from "./ui";
 
 export function Target() {
   return (
-    <Section>
+    <Section id="target">
       <H2>{target.heading}</H2>
       <ol className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
         {target.items.map((t, i) => (

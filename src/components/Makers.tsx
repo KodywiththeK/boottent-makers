@@ -4,7 +4,7 @@ import { Bullets, Callout, H2, P, Prose, Quote, Rich, Section } from "./ui";
 export function Makers() {
   return (
     <>
-      <Section tone="sand">
+      <Section id="intro" tone="sand">
         <H2>{m.heading}</H2>
         <Prose>
           {m.intro.map((x) => (

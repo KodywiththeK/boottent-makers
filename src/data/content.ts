@@ -2,6 +2,8 @@
 
 export const FORM_URL =
   "https://boottent.com/form/20261020174259GdRYf";
+export const STARTERS_URL = "https://boottent.com/camps/boottent-starters";
+
 export const FORM_LABEL =
   "[부트텐트 신청폼] 부트텐트 메이커즈: 가치를 만드는 실전 프로젝트 2기";
 
@@ -152,7 +154,7 @@ export const overview = {
     { k: "참여 우대조건", v: "부트텐트 스타터즈 참여자" },
   ],
   starters: "스타터즈 모임이 궁금하다면? (토글 클릭)",
-  startersLink: "부트텐트 스타터즈: 새로운 도전을 고민중이라면? 살펴보기",
+  startersLink: "부트텐트 스타터즈: 진짜 하고싶은 일을 찾고싶다면?",
   applyLead: "메이커즈 신청 방법: 신청폼 바로가기👇",
 };
 

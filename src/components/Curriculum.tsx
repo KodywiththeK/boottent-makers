@@ -3,7 +3,7 @@ import { Bullets, Chevron, H2, Section } from "./ui";
 
 export function Curriculum() {
   return (
-    <Section tone="sand">
+    <Section id="curriculum" tone="sand">
       <H2>{c.heading}</H2>
       <div className="mx-auto max-w-3xl space-y-3">
         {c.weeks.map((w, i) => (
